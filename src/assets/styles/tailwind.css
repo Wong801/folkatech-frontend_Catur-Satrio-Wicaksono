@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+* {
+  @apply font-gotham
+}
+
+.input-form {
+  @apply border px-[1.125rem] py-[1.375rem] rounded-[7px] shadow-md w-full
+}
+
+.box-form {
+  @apply box-border w-[35.5rem] border mx-auto px-[2.125rem] rounded-[10px] shadow-xl
+}
+
+.button-form {
+  @apply bg-red-primary text-center text-white w-full rounded-[7px] py-[1.313rem] text-lg
+}
